@@ -1,0 +1,85 @@
+ Module 3 Assesment:
+Skills test: Write a (1) running java program example that using a thread, except stopwatch. Note: Add a folder on your repository and name it into.
+
+
+
+public class Multi extends Thread{
+@Override
+
+public void run(){  
+    String numbers = null;
+ String name = numbers;
+ 
+    for (int i = 1; i <= 10; ++i) {
+         System.out.println( " numbers"  + ' '+ "names" + '=' + i);
+         
+         
+}
+System.out.println("thread is running now...");  
+System.out.println(" thread is already running ");
+}  
+public static void main(String args[]){  
+    
+Multi t1=new Multi();  
+t1.start();  
+ }  
+}
+
+
+
+Misconception Check
+ Explain the advantages and disadvantages of treading and multithreading in java programming.
+The advantages of treading:
+.     1. Reduces development time.
+     2. Reduces maintenance costs.
+     3. Improves the performance of complex applications.
+     4. Useful for improving the responsiveness of the user interfaces.
+     5. Used in server applications for improving high throughput and resource utilization.
+     6. Parallelize tasks.
+    7. If a thread cannot use all the computing resources of the CPU (because instructions depend on each other's result), running another thread can avoid leaving these idle.
+    8. If several threads work on the same set of data, they can actually share their cache, leading to better cache usage or synchronization on its values.
+The disadvantage of treading:
+. Multiple threads can interfere with each other when sharing hardware resources such as caches or translation look aside buffers (TLBs).
+. Execution times of a single thread are not improved but can be degraded, even when only one thread is executing. This is due to slower frequencies and/or additional pipeline stages that are necessary to accommodate thread-switching hardware.
+ . Hardware support for multithreading is more visible to software, thus requiring more changes to both application programs and operating systems than multiprocessing.
+
+ The advantage of multithreading:
+	Enhanced performance by decreased development time
+	Simplified and streamlined program coding
+	Improvised GUI responsiveness
+	Simultaneous and parallelized occurrence of tasks
+	Better use of cache storage by utilization of resources
+	Decreased cost of maintenance
+	Better use of CPU resource
+
+The disadvantage of multithreading:
+
+	Complex debugging and testing processes
+	Overhead switching of context
+	Increased potential for deadlock occurrence
+	Increased difficulty level in writing a program
+	Unpredictable results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
