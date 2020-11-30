@@ -1,0 +1,36 @@
+Misconception Check
+Explain the advantages and disadvantages of treading and multithreading in java programming.
+The advantages of multithreading in java programing is to Enhanced performance by decreased development time, Simplified and streamlined program coding, Improvised GUI responsiveness, Simultaneous and parallelized occurrence of tasks, Better use of cache storage by utilization of resources, Decreased cost of maintenance, Better use of CPU resource.
+
+The disadvantages of multithreading in java programing is to Complex debugging and testing processes, Overhead switching of context, Increased potential for deadlock occurrence, Increased difficulty level in writing a program, Unpredictable results.
+
+The advantages of thread in java programing is to Reduces development time, Reduces maintenance costs, Improves the performance of complex applications, Useful for improving the responsiveness of the user interfaces, Used in server applications for improving high throughput and resource utilization,  Parallelize tasks, If a thread cannot use all the computing resources of the CPU (because instructions depend on each other's result), running another thread can avoid leaving these idle, If several threads work on the same set of data, they can actually share their cache, leading to better cache usage or synchronization on its values.
+
+The disadvantage of thread in java programing is to  Multiple threads can interfere with each other when sharing hardware resources such as caches or translation look aside buffers (TLBs), Execution times of a single thread are not improved but can be degraded, even when only one thread is executing. This is due to slower frequencies and/or additional pipeline stages that are necessary to accommodate thread-switching hardware and  Hardware support for multithreading is more visible to software, thus requiring more changes to both application programs and operating systems than multiprocessing.
+
+
+
+
+
+
+
+
+
+D. EVALUATE
+Self Assessment.
+
+Questions                                                        YES     -        NO      -    MAYBE
+
+
+1. Did I work hard on this module?                              YES
+2. Did I understand what my teacher asked me to                                                 MAYBE
+do?
+3. Did I spend enough time to finish answering this             YES
+module?
+4. Did I make good use of available resources?                                                   MAYBE
+5. Did I check/ review my work for possible errors?             YES
+6. Did I learn something in this module?                        YES
+7. Did I ask questions if I needed help?                       YES
+8. Did I read the instructions carefully?                       YES
+9. Did I set high standards for myself?                                           NO
+10. Did I meet the success criteria?                                                              MAYBE
