@@ -1,0 +1,151 @@
+1. Write your own version of arraycopy for int arrays.
+
+Public class Activity 1 {
+    public static void main(String[] args) {
+       
+        int [] numbers = {1, 2, 3, 4, 5, 6};
+        int [] positiveNumbers = numbers;    // copying arrays
+
+        for (int number: positiveNumbers) {
+            System.out.print(number + ", ");
+        }
+    }
+}
+
+2. Write a Java program to print the following grid using array.
+
+This will be the output.
+package Activity2;
+
+public class Activity2 {
+
+  public static void main(String[] args) {
+ int [][]a = new int[10][10];    
+ for(int i = 0; i < 10; i++)
+   {
+      for(int j = 0; j < 10; j++)
+      {
+         System.out.printf("%2d ", a[i][j]);
+      }
+      System.out.println();
+   
+}
+  }
+}
+
+
+
+
+
+
+
+
+3. Write a Java program to calculate the average value of array elements.
+
+
+
+package Activity3;
+
+public class Activity3 {
+
+  public static void main(String[] args) {
+ 
+       int[] numbers = new int[]{20, 30, 25, 35, -16, 60, -100};
+       //calculate sum of all array elements
+       int sum = 0;
+       for(int i=0; i < numbers.length ; i++)
+        sum = sum + numbers[i];
+       //calculate average value
+        double average = sum / numbers.length;
+        System.out.println("Average value of the array elements is : " + average); 
+   }
+}
+
+
+4. Write a Java program to read a string and return true if it ends with a specified string of length 2.
+package activity4;
+import java.util.*;
+public class activity4 {
+public boolean endsNg(String str) 
+{
+  int len = str.length();
+  String ng = "ng";
+  if (len < 2)
+    return false;
+  else if (ng.equals(str.substring(len-2,len)))
+    return true;
+  else
+    return false;
+}
+public static void main (String[] args)
+    {
+      activity4 m= new activity4();
+      String str1 =  "string";
+      System.out.println("The given strings is: "+str1);
+      System.out.println("The string containing ng at last: "+m.endsNg(str1));
+    }
+}
+5. Write a Java program to remove duplicate characters from a given string presents
+in another given string.
+
+package Activity5;
+import java.util.*;
+public class Activity5 {
+ public static void main(String[] args) {
+  String str1 = "the quick brown fox";
+  String str2 = "queen";
+  System.out.println("The given string is: " + str1);
+  System.out.println("The given mask string is: " + str2);
+  char arr[] = new char[str1.length()];
+  char[] mask = new char[256];
+  for (int i = 0; i < str2.length(); i++)
+   mask[str2.charAt(i)]++;
+  System.out.println("\nThe new string is: ");
+  for (int i = 0; i < str1.length(); i++) {
+   if (mask[str1.charAt(i)] == 0)
+    System.out.print(str1.charAt(i));
+  }
+ }
+}
+
+6. Write a Java program to check if a file or directory specified by path name exists or not.
+package Activity6;
+import java.io.File;
+public class Activity6 {
+
+  public static void main(String[] args) {
+        // Create a File object
+        File my_file_dir = new File("/home/students/xyz.txt");
+         if (my_file_dir.exists()) 
+           {
+            System.out.println("The directory or file exists.\n");
+           } 
+         else
+          {
+            System.out.println("The directory or file does not exist.\n");
+  }
+}
+}
+
+
+
+
+
+7. Write a Java program to get a list of all file/directory names from the given.
+	
+package Activity7;
+import java.io.File;
+import java.util.Date;
+public class Activity7 {
+
+  public static void main(String[] args) 
+     {
+        File file = new File("/home/students/");
+        String[] fileList = file.list();
+        for(String name:fileList){
+            System.out.println(name);
+        }
+    }
+}
+ 
+
