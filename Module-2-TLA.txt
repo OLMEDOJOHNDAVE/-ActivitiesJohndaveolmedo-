@@ -1,0 +1,80 @@
+B. EXPLORE: API Specifications list
+1. Enumerate at least 20 following API specifications of java, depending of the java
+version.
+Java version: Java Virtual Machine
+                                                  DESCRIPTION
+The Java virtual machine is an abstract (virtual) computer defined by a specification. The garbage-collection algorithm used and any internal optimization of the Java virtual machine instructions (their translation into machine code) are not specified. The main reason for this omission is to not unnecessarily constrain implementers. Any Java application can be run only inside some concrete implementation of the abstract specification of the Java virtual machine
+ 
+
+
+                                       INTERFACES
+Java Virtual Machines - features, command-line options, and additional information.
+               Java Native Interface - the interface which JVM TI extends.
+         java.lang.instrument package - a Java programming language alternate to JVM TI if only the instrumentation functionality of JVM TI is used.
+
+                                                                         CLASSES
+
+A specification where working of Java Virtual Machine is specified. But implementation provider is independent to choose the algorithm. Its implementation has been provided by Oracle and other companies.
+An implementation It implementation is known as JRE (Java Runtime Environment).
+Runtime Instance Whenever you write java command on the command prompt to run the java class, an instance of JVM is created.
+
+
+
+
+
+
+D. ELABORATE: Additional Details
+More in java API Specifications:
+Give the Requirements for Writing a Java API Specifications.
+
+Top-Level Specification
+Package Specification
+Package Examples
+Class/Inteface Specification
+Interface Example
+Class Examples
+Field Specification
+Field Examples
+Method Specification
+Method Example
+
+
+
+
+
+
+
+E.EVALUATE
+Self-Assessment.
+
+Questions                                                                   YES     -      NO        -       MAYBE
+
+
+1. Did I work hard on this module?                                          YES                                           
+2. Did I understand what my teacher asked me to                                                                MAYBE
+do?                             
+3. Did I spend enough time to finish answering                              YES                         
+this module?
+4. Did I make good use of available resources?                                                                    MAYBE                                                             
+5. Did I check/ review my work for possible                                YES
+errors?
+6. Did I learn something in this module?                                   YES
+7. Did I ask questions if I needed help?                                   YES
+8. Did I read the instructions carefully?                                  YES
+9. Did I set high standards for myself?                                                        NO
+10. Did I meet the success criteria?                                                                              MAYBE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
